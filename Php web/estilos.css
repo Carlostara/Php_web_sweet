@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Ms Madi', sans-serif, Verdana;
+    font-weight: 300 lighter;
+    font-size: 18px;
+}
+h2{text-align: center;
+}
+.container {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 13% 65% auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 1700px;
+    margin: 5px auto;
+    gap: 2px;
+
+    grid-template-rows: 14% auto auto;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 177px;
+    grid-column: 2/3;
+}
+.hotel{
+    width: 
+    70%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 1px;
+}
+.header {
+    background-color: rgb(255, 145, 77);
+    text-align: center;
+    grid-column: 1/4;
+    border-bottom: 5px solid rgb(45, 46, 82);
+
+}
+
+.texto {
+    font-size: 40px;
+    font-family: 'Ms Madi', sans-serif, Verdana;
+    color: rgb(46, 47, 83)
+}
+
+.nav__bar1 {
+    grid-column: 1/4;
+    background-color: rgba(0, 0, 0, 0.90);
+    text-align: center;
+    width: 63.1%;
+    height: 45px;
+    position: fixed;
+    color: white;
+    margin: 0 auto;
+    padding: 8px;
+
+
+
+}
+
+.nav__bar1 a {
+    grid-column: 1/4;
+    margin: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+
+    font-size: 15px;
+    padding: 25px;
+
+
+
+
+}
+.nav__bar1 a:hover {
+    color: red;
+}
+
+.h1_ser {
+    color: darkblue;
+    font-weight: 800;
+    text-align: center;
+}
+
+.h3_ser {
+    color: goldenrod;
+    background-color: #E7E5DF;
+    text-align: center;
+}
+
+.nav__bar {
+   background-color:rgba(46, 47, 83);
+
+    grid-column: 1/2;
+}
+
+.nav__itmes li {
+    margin: 3px;
+    list-style: circle;
+    padding: 15px;
+}
+
+.nav__items a {
+    text-decoration: none;
+    color: #f0f8ff;
+    font-size: 15px;
+    font-family: 'Piazzolla', serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    padding: 20px;
+    border: 1px solid rgba(46, 47, 83, );
+}
+
+.nav-item li {
+
+    text-align: initial;
+    font-family: 'monserrat', sans-serif;
+    font-weight: 400;
+    padding: 2px;
+    list-style: inside;
+}
+p{text-align: center;}
+
+.nav-item {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-weight: 600;
+
+}
+
+
+.nav__items a:hover {
+    transform: translateY(-10px);
+    color: cornflowerblue;
+    border-bottom: 5px solid red;
+}
+
+.main {
+    background-color: #E7E5DF;
+    color: #000000;
+
+}
+
+.Text__main {
+    margin: 8px;
+    padding: 3px;
+
+}
+.san{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 1px;}
+
+.card {
+  
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 350px;
+    padding: 2px;
+    border-radius: 2px;
+    overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+   
+
+
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+.p-section{
+    font-family: 'monserrat', sans-serif;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 300;
+
+}
+
+.card .textos_sec {
+    font-family: 'monserrat', sans-serif;
+    color: #000000;
+    
+}
+
+.card img {
+    width: 350px;
+
+}
+
+.aside {
+    background-color: #3B3B3B;
+    color: white;
+    text-align: center;
+
+
+
+
+}
+.p-aside{
+    font-size: 16px;
+    margin: 15px;
+}
+h1{text-align: center;}
+.pic {
+    padding: 25px;
+    text-align: center;
+    border-radius: 25%;
+    width: 200px;
+
+}
+
+.footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    background-color: black;
+    color: white;
+    grid-column: 1/4;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.suc {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+.footer{
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  fieldset {
+    text-align: left;
+   
+   
+  }
+  
+  legend {
+    background-color:rgba(46, 47, 83 );
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  input  {
+    margin: 5px;
+  }
+  input .inline-input  {
+    margin: 5px;
+    display: inline;
+  }
+
+  table{
+    width: 80%;
+    
+    background-color:whitesmoke;
+    border-collapse: collapse;
+    border: 1px solid black;
+   
+    text-align: center;
+    
+    padding: 12px;
+    margin: 0 auto;
+    
+   
+    
+}
+
+ th, td {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    
+    font-family:  Georgia, Times, 'Times New Roman', serif
+  }
+
+  thead{
+    background-color: rgba(46, 47, 83 );
+    color: #f0f8ff;
+    text-align: center;
+    
+}
+tr:nth-child(even){
+    background-color: rgba(46, 57, 83 );
+    color: white;
+}
+.content .error{
+    font-size: 18px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background-color: rgb(202, 39, 39);
+    text-align: center;
+  }
+  
